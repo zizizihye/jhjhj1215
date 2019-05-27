@@ -1,0 +1,97 @@
+
+  body{
+
+    background-image: url("images/index_main.jpg");
+    margin-top:150px;
+    text-align: center;
+    font-family:"-윤디자인웹돋움"
+    font-size:20px;
+  }
+
+  #home{
+    padding-left: 30px;
+  }
+
+  .category{
+    margin-left: 0;
+    text-align: center;
+  }
+
+    a{
+      color:black;
+      text-decoration: none;
+      font-size: 20px;
+    }
+
+    #active{
+      color: white;
+    }
+
+
+    #grid{
+      display:grid;
+      grid-template-columns: 150px 1fr;
+    }
+
+    #article{
+      padding-left:25px;
+    }
+
+    #trip{
+      font-family:"A옛날사진관4"
+    }
+
+
+
+    .date{
+      padding-left: 70px;
+      text-align: left;
+      font-family: "배스킨라빈스 B";
+      font-size:10px;
+    }
+
+    .tripdate{
+      text-align: center;
+      font-family: "배스킨라빈스 B";
+      font-size:10px;
+    }
+
+
+    .columns {
+      position: relative;
+      -moz-column-count: 4;
+      -webkit-column-count: 4;
+      column-count: 4;
+      -moz-column-gap: 1em;
+      -webkit-column-gap:1em;
+      column-gap: 1em;
+    }
+
+/**
+      		.columns .image {
+      			position: relative;
+      			display: inline-block;
+      			margin: 0 0 .5em;
+      			width: 100%;
+      			overflow: hidden;
+      		}*/
+
+      			.columns .image img {
+      				-moz-transition: -moz-transform 0.2s ease-in-out;
+      				-webkit-transition: -webkit-transform 0.2s ease-in-out;
+      				-ms-transition: -ms-transform 0.2s ease-in-out;
+      				transition: transform 0.2s ease-in-out;
+      				-webkit-backface-visibility: hidden;
+      				-webkit-transform: translate3D(0, 0, 0);
+      			}
+
+      			.columns .image:hover img {
+      				-moz-transform: scale(1.1);
+      				-webkit-transform: scale(1.1);
+      				-ms-transform: scale(1.1);
+      				transform: scale(1.1);
+      			}
+
+
+
+  }

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <title> Laputa</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="grid">
+      <div class="category">
+          <a id="home" href="main.html"><img src="images/index02.png" width="150px" onmouseover="this.src='images/index03.png'" onmouseout="this.src='images/index02.png'"></a>
+
+          <img src = "images/menu.jpg" style="margin-left:30px; margin-top:30px;"usemap="#mapnav">
+          <map name="mapnav" id="mapnav">
+            <area shape="rect" coords="0,0,146,53" href="puppy.html">
+            <area shape="rect" coords="0,57,146,106" href="daily.html">
+            <area shape="rect" coords="0,107,146,152" href="trip.html">
+            <area shape="rect" coords="0,159,146,207" href="diary.html">
+            <area shape="rect" coords="0,211,146,254" href="comment.html">
+    </div>
+    <div id = "article">
+
+      <div id="trip">
+        KUNSAN-은파호수공원<br>
+        190412<br></div>
+      <p>
+        <img src="images/eunpa_1.jpg" width=300>
+        <img src="images/eunpa_2.jpg" width=300>
+        <img src="images/eunpa_3.jpg" width=300>
+        <img src="images/eunpa_4.jpg" width=300>
+        <br>
+
+        <!--1행-->
+
+        <img src="images/eunpa_5.jpg" width=300>
+        <img src="images/eunpa_6.jpg" width=300>
+        <img src="images/eunpa_7.jpg" width=300>
+      </p>
+
+      <div class="tripdate">
+        <li><a href="#none"   onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';">여행일기</a><div style="text-align:left;display:none;font-size:15px;font-family:-윤디자인웹돋움">
+          <br><p style="text-align:center;">친구랑 같이 은파에 벚꽃 구경. 오랜만에 친구도 만나고, 날씨도 좋아서 기분 좋았던 날.</p><br></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+  <title> Laputa</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div id="grid">
+      <div class="category">
+          <a id="home" href="main.html"><img src="images/index02.png" width="150px" onmouseover="this.src='images/index03.png'" onmouseout="this.src='images/index02.png'"></a>
+
+          <img src = "images/menu.jpg" style="margin-left:30px; margin-top:30px;"usemap="#mapnav">
+          <map name="mapnav" id="mapnav">
+            <area shape="rect" coords="0,0,146,53" href="puppy.html">
+            <area shape="rect" coords="0,57,146,106" href="daily.html">
+            <area shape="rect" coords="0,107,146,152" href="trip.html">
+            <area shape="rect" coords="0,159,146,207" href="diary.html">
+            <area shape="rect" coords="0,211,146,254" href="comment.html">
+    </div>
+    <div id = "article">
+      <div id="trip">
+        DAECHEON<br>
+        180704~180705<br>
+      <p>
+          <img src="images/daecheon1.jpg" width=300>
+          <img src="images/daecheon2.jpg" width=300>
+          <img src="images/daecheon3.jpg" width=300>
+          <img src="images/daecheon4.jpg" width=300>
+          <br>
+          <!--1행-->
+      </div>
+      </p>
+
+      <div class="tripdate">
+        <li><a href="#none"   onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';">여행일기</a><div style="text-align:left;display:none;font-size:15px;font-family:-윤디자인웹돋움">
+          <br><p style="text-align:center;">일년에 한 번씩은 꼭 가는 친구들과 펜션ovo 18년도 여름엔 대천으로 다녀왔다! 날이 너무 더워서 밖보다는 펜션 안에, 그리고 펜션 내 수영장에서 더 많이 놀았다.</p><br></div>
+      </div>
+
+
+    </div>
+  </div>
+
+  </body>
+</html>
