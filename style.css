@@ -29,15 +29,25 @@
       grid-template-columns: 200px 1fr;
     }
 
+
     #article{
       padding-left:25px;
+      text-align: left;
     }
 
-    #trip{
+    #menu{
+      padding:20px;
+      border-top: solid rgba(255,255,255,0.5); 1px;
+      border-bottom: solid rgba(255,255,255,0.5); 1px;
+      margin-bottom: 80px;
+      text-align: left;
+      color:white;
+      font-size: 20px;
       font-family:"A옛날사진관4"
+
+
+
     }
-
-
 
     .date{
       padding-left: 70px;
@@ -47,10 +57,12 @@
     }
 
     .tripdate{
-      text-align: center;
+      margin-top:30px;
+      text-align: left;
       font-family: "배스킨라빈스 B";
       font-size:10px;
     }
+
 
 
     .columns {
